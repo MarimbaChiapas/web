@@ -1,0 +1,370 @@
+/*@media (max-width: 992px) {
+    /* Estilos para dispositivos móviles */
+/*    #h1 {
+        position: absolute;
+        left: 8%;
+        top: 30%;
+        font-size: 2.5em;
+        font-family: 'Raleway', sans-serif;
+    }
+}*/
+/*@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+    
+}*/
+body,html {
+    height: 100%;
+    margin: 0;
+    background-color: #C19763;
+}
+#h1 {
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+}
+#h1padre {
+    position: relative;
+    height: 60%;
+    display: flex;
+}
+#subheaderpadre {
+    display: flex;
+}
+h2 {
+    position: absolute;
+    left: 10%;
+    top: 110%;
+    width: 80%;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+}
+.menu-lista {
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    justify-content: space-between;
+}
+#menupadre {
+    position: relative;
+    height: 80%;
+    width: 100%;
+    border: solid 1px;
+}
+#botones {
+    border: solid 1px;
+    height: 50%;
+    width: 100%;
+}
+.menu2 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 20px;
+}
+.menu {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 20px;
+}
+#servicios-inicio {
+    position: absolute;
+    left: 5%;
+}
+#inicio-menu {
+    position: absolute;
+    left: 2%;
+}
+#cotizacion-menu {
+    position: absolute;
+    background-color: black;
+    color:  #F4E3D6;
+    top: 10%;
+    left: 65%;
+}
+#servicios-menu {
+    position: absolute;
+    left: 2%;
+}
+#contacto-menu{
+    position: absolute;
+    left: 31%;  
+    top: 0%;
+}
+#subtitulohijo {
+    border: solid 1px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    position: absolute;
+}
+#subheader {
+    position: relative;
+    display: flex;
+    height: 100%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+.informacion {
+    background-color: black;
+    position: absolute;
+    color: #E0CAA5;
+    top: 100%;
+    height: 12%;
+    width: 100%;
+    display: flex;
+}
+#num1 {
+    position: absolute;
+    top: -160%;
+    left: -10%;
+    font-size: 12px;
+}
+#num2 {
+    position: absolute;
+    left: 60%;
+    top: -160%;
+    font-size: 12px;
+}
+#direccion {
+    position: absolute;
+    left: -10%;
+    top: 800%;
+    font-size: 12px;
+}
+#lugar {
+    position: absolute;
+    top: 800%;
+    left: 60%;
+    font-size: 12px;
+}
+#inf {
+    position: absolute;
+    background-color: black;
+    top: 0%;
+    padding: 0px;
+    left: 0%;
+    width: 90%;
+    height: 8%;
+    z-index: 1000;
+    display: flex;
+}
+#inf.fijo {
+    position: fixed;
+    display: block;
+}
+.informacion.fijo {
+    position: fixed;
+    display: block;
+}
+#videos {
+    position: absolute;
+    background-color: #C19763;
+    top: 140%;
+    height: 110%;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+}
+.letrasinfo {
+    position: absolute;
+    left: 12%;
+    height: 50%;
+    width: 90%;
+}
+footer {
+    position: absolute;
+    background-color: black;
+    color: #E0CAA5;
+    bottom: -200%;
+    width: 100%;
+    height: 10%;
+    font-size: 0.8rem;
+}
+#copy {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+}
+#canciones1 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    overflow: hidden;
+}
+#canciones1 iframe{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#canciones2 iframe{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    overflow: hidden;
+}
+#canciones3 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    overflow: hidden;
+}
+#divpadre {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 90%;
+    left: 0%;
+    display: flex;
+}
+#divmedio {
+    position: absolute;
+    left: 5%;
+    width: 42.5%;
+    flex-direction: row;
+}
+audio {
+    position: relative;
+    width: 100%;
+}
+.nombrescanciones {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #C19763;
+    opacity: 0.8;
+}
+audio::-webkit-media-controls-play-button {
+    background-color: #E0CAA5;
+    border-radius: 50%;
+}
+#facebook {
+    position: absolute;
+}
+#divmedio2 {
+    position: absolute;
+    left: 52.5%;
+    width: 42.5%;
+}
+.lineavacia {
+    height: 20px; /* Altura deseada para la línea en blanco */
+    margin: 0; /* Ajusta el margen para que no haya espacios adicionales */
+    padding: 0; /* Ajusta el relleno para que no haya espacios adicionales */
+    border: none;
+}
+#titulopadre {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+#botonespadre {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    height: 20%;
+    display: flex;
+}
+#botoneshijo {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.boton {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#cotizar {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #E0CAA5;
+    font-weight: bolder;
+    background-color: black;
+    position: absolute;
+    top: 40%;
+    left: 72%;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    z-index: 1000;
+}
+#cont {
+    position: absolute;
+    left: 36%;
+}
+#cont2 {
+    position: absolute;
+    left: 32%;
+}
+#videos2 {
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+}
+#tamañovideos {
+    display: flex;
+    flex-direction: auto;
+}
+.encuesta {
+    position: absolute;
+    top: 25%;
+}
+button { 
+    height: 130%;
+    background-color: #C19763;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 1000;
+}
+.video {
+    position: relative;
+    padding-bottom: 55%; /* Aspect ratio 16:9 (altura/anchura * 100) */
+    height: 0;
+    overflow: hidden;
+    max-width: 90%;
+    left: 5%;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
